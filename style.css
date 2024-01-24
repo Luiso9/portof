@@ -1,0 +1,77 @@
+body {
+    background-color: #32302f !important;
+}
+
+.border {
+    border-color: #504945 !important;
+}
+
+p {
+    color: #ebdbb2;
+}
+
+a {
+    color: #ebdbb2;
+}
+
+.bg-dark {
+    background-color: #202020 !important;
+}
+
+.navbar.bg-dark {
+    background-color: #32302f !important;
+}
+
+button {
+    align-items: center;
+    background-color: transparent;
+    color: #dedede;
+    cursor: pointer;
+    display: flex;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: 0;
+    border: 0;
+    padding: 1rem;
+  }
+  
+  button:before {
+    background-color: #dedede;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    margin-right: 10px;
+    transition: all .42s cubic-bezier(.25,.8,.25,1);
+    width: 0;
+  }
+  
+  button:hover:before {
+    background-color: #dedede;
+    width: 3rem;
+  }
+   
+   .input {
+    border: solid 1.5px #ebdbb2 !important;
+    border-radius: 1rem;
+    background: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #f5f5f5;
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   
+   .input:focus, input:valid {
+    outline: none;
+    border: 1.5px solid #ebdbb2 !important;
+   }
+   
+   .input:focus ~ label, input:valid ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #212121;
+    padding: 0 .2em;
+    color: #665c54 !important;
+   }
